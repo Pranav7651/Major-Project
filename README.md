@@ -1,1 +1,1 @@
-##Major Project
+## MAJOR PROJECT
