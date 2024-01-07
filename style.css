@@ -54,9 +54,6 @@ html,body{
     /* background-color: blanchedalmond; */
 }
 
-#nav-part2:hover{
-    /* color: red; */
-}
 
 #navBar h2:hover{
     cursor: pointer;
@@ -163,10 +160,6 @@ html,body{
         /* background-color: blanchedalmond; */
     }
     
-    #nav-part2:hover{
-        /* color: red; */
-    }
-    
     #navBar h2:hover{
         cursor: pointer;
         color: #832d9e;
@@ -234,10 +227,194 @@ html,body{
         padding: 2vw;
     }
 
-    #Responsive-nav h2:hover{
-    }
-
     #Responsive-nav h2 i{
         padding: 2vw;
     }
 }
+
+
+/* ------------------------------------------ NAVIGATION BAR OVER--------------------------------------------- */
+
+
+
+/* ------------------------------------------ MAIN PAGE--------------------------------------------- */
+
+#main{
+    width: 100%;
+    height: calc(100% - 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#main-part1{
+    height: 100%;
+    width: 50%;
+}
+
+#main-part1 h1{
+    font-size: 3.2vw;
+    margin-top: 9vw;
+    margin-left: 4vw;
+}
+
+#main-part1 p{
+    color: rgb(73, 73, 73);
+    width: 84%;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    line-height: 1.8vw;
+}
+
+#main-part1 span{
+    color: #9D38BD;
+}
+
+#main-part1 #button{
+    border: 2px solid #9D38BD;
+    display: inline-block;
+    color: white;
+    background-color: #9D38BD;
+    padding: 1vw 2vw;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+    transition: all 0.15s linear;
+}
+
+#main-part1 #button:hover{
+    cursor: pointer;
+    color: #9D38BD;
+    background-color: white;
+    box-shadow: 0.3vw 0.3vw #9D38BD;
+}
+
+#main-part2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#main-part2 .img1{
+    position: absolute;
+    width: 40%;
+    height: 56%;
+    top: 30%;
+    transform: rotate(-6deg);
+    background-image: url("./Images/study.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 10px solid #C690D8; */
+    border-radius: 20%;
+}
+
+#main-part2 .img2{
+    z-index: 99;
+    position: absolute;
+    width: 40%;
+    height: 72%;
+    top: 13%;
+    left: 30%;
+    background-image: url("./Images/study3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 10px solid #C690D8; */
+    border-radius: 5%;
+}
+
+#main-part2 .img3{
+    position: absolute;
+    width: 38%;
+    height: 56%;
+    top: 30%;
+    left: 60%;
+    transform: rotate(6deg);
+    background-image: url("./Images/study2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+}
+
+/* ------------------------------------------ MAIN PAGE
+RESPONSIVENESS--------------------------------------------- */
+
+@media (max-width:600px){
+    #main{
+        width: 100%;
+        height: calc(100% - 13%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    #main-part1{
+        width: 100%;
+        height: 100%;
+        word-spacing: 1vw;
+    }
+    
+    #main-part1 h1{
+        font-size: 8.4vw;
+        text-align: left;
+        margin-top: 9vw;
+        margin-left: 4vw;
+    }
+    
+    #main-part1 p{
+        color: rgb(73, 73, 73);
+        width: 90%;
+        margin-left: 4vw;
+        margin-top: 4vw;
+        line-height: 5vw;
+
+    }
+    
+    #main-part1 span{
+        color: #9D38BD;
+    }
+    
+    #main-part1 #button{
+        border: 2px solid #9D38BD;
+        display: inline-block;
+        color: white;
+        background-color: #9D38BD;
+        padding: 1vw 2vw;
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 3vw;
+        font-weight: 600;
+        transition: all 0.15s linear;
+    }
+    
+    #main-part1 #button:hover{
+        cursor: pointer;
+        color: #9D38BD;
+        background-color: white;
+        box-shadow: 0.3vw 0.3vw #9D38BD;
+    }
+    
+    #main-part2{
+        display: none;
+    }
+    
+    #main-part2 .img1{
+        display: none;
+    }
+    
+    #main-part2 .img2{
+        display: none;
+    }
+    
+    #main-part2 .img3{
+        display: none;
+    }
+}
+
+/* ------------------------------------------ MAIN PAGE
+DONE--------------------------------------------- */
