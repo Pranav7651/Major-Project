@@ -346,7 +346,7 @@ RESPONSIVENESS--------------------------------------------- */
 @media (max-width:600px){
     #main{
         width: 100%;
-        height: calc(100% - 13%);
+        height: 55%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -370,9 +370,9 @@ RESPONSIVENESS--------------------------------------------- */
         color: rgb(73, 73, 73);
         width: 90%;
         margin-left: 4vw;
-        margin-top: 4vw;
+        margin-top: 5vw;
         line-height: 5vw;
-
+        letter-spacing: 0.2vw;
     }
     
     #main-part1 span{
@@ -386,7 +386,7 @@ RESPONSIVENESS--------------------------------------------- */
         background-color: #9D38BD;
         padding: 1vw 2vw;
         margin-left: 4vw;
-        margin-top: 4vw;
+        margin-top: 5.5vw;
         font-size: 3vw;
         font-weight: 600;
         transition: all 0.15s linear;
@@ -418,3 +418,148 @@ RESPONSIVENESS--------------------------------------------- */
 
 /* ------------------------------------------ MAIN PAGE
 DONE--------------------------------------------- */
+
+
+/* ------------------------------------------ PAGE 2 STARTED--------------------------------------------- */
+#heading{
+
+    text-align: center;
+    /* letter-spacing: 0.15vw; */
+    font-size: 3.2vw;
+    margin-top: 1vw;
+}
+
+#page2{
+    /* position: relative; */
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page2 .features{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 .features img{
+    height: 60%;
+    width: 62%;
+    /* background-color: red; */
+}
+
+#page2 .features h2{
+    font-weight: 500;
+    margin-top: 2.5vw;
+}
+
+#page2 #features1{
+    /* background-color: wheat; */
+    width: 20%;
+    height: 100%;
+}
+
+#page2 #features2{
+    /* background-color: wheat; */
+    width: 20%;
+    height: 100%;
+}
+
+#page2 #features3{
+    /* background-color: wheat; */
+    width: 20%;
+    height: 100%;
+}
+
+#page2 #features4{
+    /* background-color: wheat; */
+    width: 20%;
+    height: 100%;
+}
+
+#page2 #features5{
+    /* background-color: wheat; */
+    width: 20%;
+    height: 100%;
+}
+
+
+/* ------------------------------------------ PAGE 2
+RESPONSIVENESS--------------------------------------------- */
+
+@media (max-width:600px){
+    #heading{
+        height: 65%;
+        width: 100%;
+        text-align: center;
+        /* letter-spacing: 0.15vw; */
+        font-size: 8.5vw;
+        margin-top: 1vw;
+    }
+    
+    #page2{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #page2 .features{
+        margin-top: 7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #page2 .features img{
+        height: 60%;
+        width: 62%;
+        /* background-color: red; */
+    }
+    
+    #page2 .features h2{
+        font-weight: 500;
+        margin-top: 2.5vw;
+    }
+    
+    #page2 #features1{
+        /* background-color: wheat; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    #page2 #features2{
+        /* background-color: wheat; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    #page2 #features3{
+        /* background-color: wheat; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    #page2 #features4{
+        /* background-color: wheat; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    #page2 #features5{
+        /* background-color: wheat; */
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* ------------------------------------------ PAGE 2 DONE--------------------------------------------- */
