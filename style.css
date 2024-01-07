@@ -1,10 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 html,body{
     width: 100%;
     height: 100%;
+}
+
+/* ------------------------------------------ NAVIGATION BAR--------------------------------------------- */
+
+#navBar{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navBar .ri-menu-fill{
+    display: none;
+}
+
+#navBar h1{
+    /* background-color: paleturquoise; */
+    width: 20%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar h1 span{
+    color: #9D38BD;
+}
+
+#nav-part2{
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navBar h2{
+    font-weight: 400;
+    font-size: 1.1vw;
+    padding-top: 0.5vw;
+    transition: all 0.1s linear;
+    /* background-color: blanchedalmond; */
+}
+
+#nav-part2:hover{
+    /* color: red; */
+}
+
+#navBar h2:hover{
+    cursor: pointer;
+    color: #832d9e;
+    /* text-decoration: underline; */
+    /* opacity: 1; */
+}
+
+#nav-part3{
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:25%;
+}
+
+#nav-part3 .button1,.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #9D38BD;
+    height: 3vw;
+    width: 8vw;
+    font-weight: 600;
+    border-radius: 0.3vw;
+}
+
+#nav-part3 .button1{
+    color: #9D38BD;    
+    margin-left: 3vw;
+    transition: all 0.15s linear;
+}
+
+#nav-part3 .button1:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #9D38BD;
+    box-shadow: 0.3vw 0.3vw #C690D8;
+}
+
+#nav-part3 .button2{
+    background-color: #9D38BD;
+    margin-right: 2vw;
+    color: white;
+    transition: all 0.15s linear;
+}
+
+#nav-part3 .button2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #9D38BD;
+    box-shadow: 0.3vw 0.3vw #9D38BD;
+}
+
+#Responsive-nav{
+    display: none;
+}
+
+/* ------------------------------------------ NAVIGATION BAR RESPONSIVENESS--------------------------------------------- */
+
+@media (max-width:600px){
+    #navBar{
+        font-size: 1.1vw;
+        height: 10%;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #navBar .ri-menu-fill{
+        font-size: 6.5vw;
+        display: inline;
+        margin-left: 2vw;
+    }
+
+    #navBar h1{
+        font-size: 7vw;
+        width: 50%;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #navBar h1 span{
+        color: #9D38BD;
+    }
+    
+    #nav-part2{
+        display: none;
+        /* width: 39%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; */
+    }
+    
+    #navBar h2{
+        font-weight: 400;
+        font-size: 1.1vw;
+        padding-top: 0.5vw;
+        transition: all 0.1s linear;
+        /* background-color: blanchedalmond; */
+    }
+    
+    #nav-part2:hover{
+        /* color: red; */
+    }
+    
+    #navBar h2:hover{
+        cursor: pointer;
+        color: #832d9e;
+        /* text-decoration: underline; */
+        /* opacity: 1; */
+    }
+    
+    #nav-part3{
+        /* background-color: skyblue; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width:35%;
+    }
+    
+    #nav-part3 .button1,.button2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #9D38BD;
+        height: 6vw;
+        width: 10vw;
+        font-weight: 600;
+        font-size: 2vw;
+        border-radius: 1vw;
+    }
+    
+    #nav-part3 .button1{
+        color: #9D38BD;    
+        margin-left: 7vw;
+        transition: all 0.15s linear;
+    }
+    
+    #nav-part3 .button1:hover{
+        cursor: pointer;
+        color: white;
+        background-color: #9D38BD;
+        box-shadow: 0.3vw 0.3vw #C690D8;
+    }
+    
+    #nav-part3 .button2{
+        background-color: #9D38BD;
+        margin-right: 2vw;
+        color: white;
+        transition: all 0.15s linear;
+    }
+    
+    #nav-part3 .button2:hover{
+        cursor: pointer;
+        background-color: white;
+        color: #9D38BD;
+        box-shadow: 0.3vw 0.3vw #9D38BD;
+    }
+
+    #Responsive-nav{
+        display: none;
+        text-align: center;
+        font-size: 2.5vw;
+        font-weight: 300;
+        background-color: #832d9e;
+        color: white;
+    }
+
+    #Responsive-nav h2{
+        padding: 2vw;
+    }
+
+    #Responsive-nav h2:hover{
+    }
+
+    #Responsive-nav h2 i{
+        padding: 2vw;
+    }
 }
