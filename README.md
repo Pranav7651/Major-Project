@@ -8,7 +8,8 @@ Digital Resource for GRE Candidates
 5) Utilized data mining technology for progress tracking, helping candidates identify their strengths and weaknesses for focused improvement.
 
 # HOMEPAGE
-## Provided below are screenshots illustrating the Homepage of our platform.
+Provided below are screenshots illustrating the Homepage of our platform: 
+
 ![WorkDone1](https://github.com/Pranav7651/Major-Project/assets/93943990/b476b16e-dc78-4bfe-a12a-666e45d517e4)
 
 ![WorkDone2](https://github.com/Pranav7651/Major-Project/assets/93943990/81e99083-1d80-4f91-aa59-2d9e4046dd91)
